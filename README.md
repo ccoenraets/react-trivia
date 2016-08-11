@@ -17,7 +17,7 @@ The questions in the example above are just placeholders. It’s easy to create 
 
 If you want modify the app and create you own build:
 
-1. Clone this repo<
+1. Clone this repo
     ```
     git clone https://github.com/ccoenraets/react-trivia
     ```
