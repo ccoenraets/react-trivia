@@ -1,4 +1,4 @@
-let data = [
+var data = [
   {
     "category": "React 101",
     "questions": [
