@@ -40,6 +40,7 @@ class Card extends React.Component {
         let style = {
                 width: this.props.width + 'px',
                 height: this.props.height + 'px',
+                transform: 'translate3d(' + this.props.left + 'px,' + this.props.top + 'px,0)',
                 WebkitTransform: 'translate3d(' + this.props.left + 'px,' + this.props.top + 'px,0)'
             },
             front = this.state.completed ? <img src='assets/img/react.svg'/> : <span className='points'>{this.props.question.points}</span>,

@@ -21817,7 +21817,6 @@
 	        key: 'transitionEndHandler',
 	        value: function transitionEndHandler(event) {
 	            if (event.propertyName === 'width') {
-	                console.log('setting flipping to false');
 	                this.setState({ flipping: false });
 	            }
 	        }
@@ -21827,6 +21826,7 @@
 	            var style = {
 	                width: this.props.width + 'px',
 	                height: this.props.height + 'px',
+	                transform: 'translate3d(' + this.props.left + 'px,' + this.props.top + 'px,0)',
 	                WebkitTransform: 'translate3d(' + this.props.left + 'px,' + this.props.top + 'px,0)'
 	            },
 	                front = this.state.completed ? _react2.default.createElement('img', { src: 'assets/img/react.svg' }) : _react2.default.createElement('span', { className: 'points' }, this.props.question.points),
