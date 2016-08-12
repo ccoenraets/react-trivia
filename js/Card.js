@@ -32,7 +32,6 @@ class Card extends React.Component {
 
     transitionEndHandler(event) {
         if (event.propertyName === 'width') {
-            console.log('setting flipping to false');
             this.setState({flipping: false});
         }
     }

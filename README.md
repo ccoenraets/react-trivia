@@ -8,7 +8,7 @@ Check out a hosted version [here](https://ccoenraets.github.io/react-trivia/).
 
 The questions in the example above are just placeholders. It’s easy to create your own questions:
 
-1. Click <a href="https://github.com/ccoenraets/react-trivia/archive/master.zip">here</a> to download the app
+1. Click [here](https://github.com/ccoenraets/react-trivia/archive/master.zip) to download the app
 
 1. Modify **data.js** with your own questions
     > The questions are loaded this way as a convenience so you can easily load index.html from the local file system
