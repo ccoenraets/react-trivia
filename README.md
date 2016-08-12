@@ -1,17 +1,21 @@
 # React Trivia
 
-[React](https://facebook.github.io/react/) version of s Trivia application. The app is written with React and ES6 (ES2015), and is built using [Babel](https://babeljs.io/) and [Webpack](https://webpack.github.io/).
+[React](https://facebook.github.io/react/) version of Trivia application. The app is written with React and ES6 (ES2015), and is built using [Babel](https://babeljs.io/) and [Webpack](https://webpack.github.io/).
 
-Check out a hosted version [here](http://react-trivia.herokuapp.com).
+Check out a hosted version [here](https://ccoenraets.github.io/react-trivia/).
 
 ## Make it Your Own
 
 The questions in the example above are just placeholders. It’s easy to create your own questions:
 
-1. Click <a href="">here</a> to download the app
-1. Modify **data.js** with your own questions
-1. Open **index.html**. You can just double-click **index.html** on your local file system: no need for a web server.
+1. Click <a href="https://github.com/ccoenraets/react-trivia/archive/master.zip">here</a> to download the app
 
+1. Modify **data.js** with your own questions
+    > The questions are loaded this way as a convenience so you can easily load index.html from the local file system
+           (using the file:// protocol) without runnning into XHR cross origin issues. See the commented out componentDidMount
+           in app.js for an alternative XHR implementation
+
+1. Open **index.html**. You can just double-click **index.html** on your local file system: no need for a web server.
 
 ## Build the App
 
