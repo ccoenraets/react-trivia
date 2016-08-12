@@ -19,7 +19,7 @@ let data = [
       },
       {
         "points": 400,
-        "question": "React uses a _____________ to limit direct manipulation of DOM nodes and improve performance",
+        "question": "React uses a _____________ to limit direct manipulation of the DOM and improve performance",
         "answer": "Virtual DOM"
       }
     ]
@@ -69,7 +69,7 @@ let data = [
       },
       {
         "points": 400,
-        "question": "<p>What's being logged and what new features of ES6 does this code highlight?</p><code>let greeting = (name, msg='Hello') => `${msg}, ${name}`;<br/>console.log(greeting('Christophe');</code>",
+        "question": "<p>What's being logged and name 4 new features of ES6 used in this code snippet?</p><code>let greeting = (name, msg='Hello') => `${msg}, ${name}`;<br/>console.log(greeting('Christophe');</code>",
         "answer": "<p>Hello, Christophe</p><ul><li>let variables</li><li>Arrow functions</li><li>Default parameters</li><li>Template strings</li></ul>"
       }
     ]
